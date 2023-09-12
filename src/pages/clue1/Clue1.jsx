@@ -7,7 +7,7 @@ const Clue1 = () => {
       }
   return (
     <div className="clue">
-        <Blocker password={1234}/>
+        <Blocker password={"1234"}/>
         <div className="clueHeading">Clue 1</div>
         <img src={img} className="clueImage" alt="clueImage" />
         <div className="clueButton" onClick={downloadImage}>Download Image</div>
