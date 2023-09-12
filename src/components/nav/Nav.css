@@ -1,0 +1,11 @@
+.nav{
+    background-color: grey;
+    width: 100vw;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
