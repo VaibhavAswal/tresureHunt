@@ -1,4 +1,4 @@
-import img from "../../assets/beach.png"
+import img from "../../assets/compass.jpeg"
 import { saveAs } from 'file-saver'
 import Blocker from "../../components/blocker/Blocker"
 const Clue1 = () => {
@@ -7,7 +7,7 @@ const Clue1 = () => {
       }
   return (
     <div className="clue">
-        <Blocker password={"1234"}/>
+        <Blocker password={"x1jp34td"}/>
         <div className="clueHeading">Clue 1</div>
         <img src={img} className="clueImage" alt="clueImage" />
         <div className="clueButton" onClick={downloadImage}>Download Image</div>

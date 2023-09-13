@@ -7,6 +7,8 @@ import './index.css'
 import Clue1 from './pages/clue1/Clue1'
 import Clue2 from './pages/clue2/Clue2'
 import Clue3 from './pages/clue3/Clue3'
+import Clue4 from './pages/clue4/clue4'
+import Clue5 from './pages/clue5/Clue5'
 import All from './pages/all/All'
 
 
@@ -26,6 +28,14 @@ const router2 = createBrowserRouter([
     {
     path: "/jkkk",
     element: <Clue3/>,
+  },
+    {
+    path: "/ftsr",
+    element: <Clue4/>,
+  },
+    {
+    path: "/resc",
+    element: <Clue5/>,
   },
   {
     path: "/all",

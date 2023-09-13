@@ -1,4 +1,4 @@
-import img from "../../assets/beach.png"
+import img from "../../assets/compass.jpeg"
 import audio from "../../assets/audio.mp3"
 import { saveAs } from 'file-saver'
 import Blocker from "../../components/blocker/Blocker"

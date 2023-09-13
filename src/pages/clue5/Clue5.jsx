@@ -1,18 +1,19 @@
-import img from "../../assets/helm.jpeg"
+import img from "../../assets/blood.jpeg"
 import { saveAs } from 'file-saver'
 import Blocker from "../../components/blocker/Blocker"
-const Clue2 = () => {
-  const downloadImage = () => {
-    saveAs(img, 'clue2.jpeg') 
-  }
+
+function Clue5() {
+    const downloadImage = () => {
+        saveAs(img, 'clue5.png') 
+      }
   return (
     <div className="clue">
-      <Blocker password={"v64zn3i9"}/>
-        <div className="clueHeading">Clue 2</div>
+        <Blocker password={"c5s23tc4"}/>
+        <div className="clueHeading">Clue 1</div>
         <img src={img} className="clueImage" alt="clueImage" />
         <div className="clueButton" onClick={downloadImage}>Download Image</div>
     </div>
   )
 }
 
-export default Clue2
+export default Clue5
