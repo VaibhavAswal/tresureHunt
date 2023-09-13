@@ -3,7 +3,7 @@ import { saveAs } from 'file-saver'
 import Blocker from "../../components/blocker/Blocker"
 const Clue1 = () => {
     const downloadImage = () => {
-        saveAs(img, 'clue1.png') 
+        saveAs(img, 'clue1.jpeg') 
       }
   return (
     <div className="clue">

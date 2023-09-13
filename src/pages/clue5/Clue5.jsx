@@ -4,7 +4,7 @@ import Blocker from "../../components/blocker/Blocker"
 
 function Clue5() {
     const downloadImage = () => {
-        saveAs(img, 'clue5.png') 
+        saveAs(img, 'clue5.jpeg') 
       }
   return (
     <div className="clue">
