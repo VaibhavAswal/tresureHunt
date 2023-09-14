@@ -1,6 +1,6 @@
 import { useState } from "react"
-
-const Blocker = ({password}) => {
+//eslint-disable-next-line
+const Blocker = ({password}) => {       
     const [pass, setpass] = useState(false)
     const [val, setval] = useState("")
     const [war, setwar] = useState(" ")

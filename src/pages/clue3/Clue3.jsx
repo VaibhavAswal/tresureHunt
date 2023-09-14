@@ -8,7 +8,7 @@ const Clue3 = () => {
   return (
     <div className="clue">
       <Blocker password={"b3ru87dt"}/>
-        <div className="clueHeading">Clue 1</div>
+        <div className="clueHeading">Hack It and Jack It</div>
         <audio className="clueAudio" src={audio} controls type="audio/mpeg"></audio>
         <div className="clueButton" onClick={downloadImage}>Download Audio</div>
     </div>
